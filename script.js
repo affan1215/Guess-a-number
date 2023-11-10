@@ -49,7 +49,7 @@ const startNewGame =()=>{
         userGuessUpdate.innerHTML="Your Guess is Low 😯";
         userNumberUpdate.value="";
     }else{
-        userGuessUpdate.innerHTML=`Your Won😍 <br> Correct Number was ${computerGuess}`;
+        userGuessUpdate.innerHTML=`You Won😍 <br> Correct Number was ${computerGuess}`;
         userNumberUpdate.value="";
         startNewGame();
         win.play();
@@ -67,7 +67,7 @@ const startNewGame =()=>{
             startNewGame();
             loose.play();
         }else{
-            userGuessUpdate.innerHTML=`Your Won 😍 <br> Correct Number was ${computerGuess}`;
+            userGuessUpdate.innerHTML=`You Won 😍 <br> Correct Number was ${computerGuess}`;
             userNumberUpdate.value="";
             startNewGame();
             win.play();
